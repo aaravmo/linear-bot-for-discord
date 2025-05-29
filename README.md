@@ -4,7 +4,7 @@ A Discord bot that listens for urgent and high priority alerts in a Linear works
 
 # Usage
 
-This program can be run 24/7 on a hosted server. Obtain a [webhook](https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks) for the discord channel with all Linear workers and obtain an [API Key](https://developers.linear.app/docs/graphql/working-with-the-graphql-api) for your Linear workspace. To run the program:
+Obtain a [webhook](https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks) for the discord channel with all Linear workers and obtain an [API Key](https://developers.linear.app/docs/graphql/working-with-the-graphql-api) for your Linear workspace. To run the program:
 
 
 > $ python main.py --authorization:(YOUR_API_KEY) --webhookurl:(YOUR_WEBHOOK_URL) --scanfreq=10 --urgentfreq=6 --highfreq=15
